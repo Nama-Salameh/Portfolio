@@ -72,3 +72,18 @@ body{
     padding-left : 70px; 
     line-height: 1.5em;
 }
+.portfolio__section3{
+    flex-direction: column;
+    height: 750px;
+    width : 100%;
+}
+.main__section3__ul{
+    list-style-type: circle;
+    width: 100%;
+}
+.main__section3__ul li{ 
+    display: inline-block;
+    box-sizing: border-box;
+    width: 32%;
+    padding:5px;
+}
