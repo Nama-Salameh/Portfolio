@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+    font-size: large;
+}
+.portfolio__header{
+    position:fixed;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.portfolio__header__nav__ul{
+    margin:30px 20px 50px 750px;
+    gap:55px;
+    display: flex;
+    list-style: none;
+}
+.portolio__header--logo{
+    float: left;
+    margin-left:10px ;
+    margin-top : 4px;
+}
+.header__link {
+    text-decoration: none;
+    position: relative;
+    color :white;
+  }
+.header__link:hover {
+    text-decoration: underline;
+    color:white;
+}
+
+
