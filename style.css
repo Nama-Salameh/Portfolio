@@ -60,7 +60,7 @@ body{
 }
 .portfolio__section2{
     flex-direction: row;
-    height: 500px;
+    height: 400px;
     width : 100%;
 }
 .main__section2__img{
@@ -100,6 +100,7 @@ body{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     background-color: white;
     margin-bottom: 70px;
+    margin-top: 25px;
 }
 .main__section4--project1__img{
     margin-right: 100px;
@@ -125,3 +126,30 @@ body{
     color:black;
     font-size:30px;
 }
+.main__section5--contactcollection{
+    flex-direction: row;
+    width : 100%;
+}
+.main__section5--contactitems{
+    display: inline;
+    color:black;
+    margin: 10px 20px;
+    font-size:30px;
+    text-decoration: none;
+}
+.portfolio__footer{
+    flex-direction: column;
+}
+.footer__logo{
+    border-radius: 120px;
+    height: 280px;
+    width: 280px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+footer.portfolio__footer hr {
+    border: none; /* Remove the default border */
+    height: 1px; /* Set the height of the horizontal rule */
+    background-color: #ccc; /* Set the background color of the horizontal rule */
+    margin: 20px 0; /* Add some margin to create spacing around the horizontal rule */
+  }
