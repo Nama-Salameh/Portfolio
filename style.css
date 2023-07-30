@@ -60,7 +60,7 @@ body{
 }
 .portfolio__section2{
     flex-direction: row;
-    height: 750px;
+    height: 500px;
     width : 100%;
 }
 .main__section2__img{
@@ -74,7 +74,7 @@ body{
 }
 .portfolio__section3{
     flex-direction: column;
-    height: 750px;
+    height: 500px;
     width : 100%;
 }
 .main__section3__ul{
@@ -86,4 +86,42 @@ body{
     box-sizing: border-box;
     width: 32%;
     padding:5px;
+}
+.portfolio__section4{
+    flex-direction: column;
+    width : 100%;
+}
+.main__section4--project1{
+    padding: 45px;
+    flex-direction: row;
+    border: 2px;
+    border: 2px solid rgb(225, 234, 238);
+    border-radius: 9px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    margin-bottom: 70px;
+}
+.main__section4--project1__img{
+    margin-right: 100px;
+    width:450px;
+    height: 400px;
+}
+.main__section4--project1__p{
+    margin-left: 30px;
+    width:100%;
+}
+.github-icon{
+    margin: 20px 120px;
+    color:black;
+    font-size:30px;
+}
+.main__section4--project3__img{
+    margin-right: 150px;
+    width:250px;
+    height: 400px;
+}
+.figma-icon{
+    margin: 20px 80px;
+    color:black;
+    font-size:30px;
 }
