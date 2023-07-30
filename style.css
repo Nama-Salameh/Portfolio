@@ -14,7 +14,7 @@ body{
     color: white;
 }
 .portfolio__header__nav__ul{
-    margin:30px 20px 50px 700px;
+    margin:30px 20px 50px 650px;
     gap:55px;
     display: flex;
     list-style: none;
@@ -36,12 +36,14 @@ body{
 
 .portfolio__section{
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio__section1{
     height: 750px;
     width : 100%;
-    display: flex; /* Use flexbox to create a flex container */
     flex-direction: column;
-    justify-content: center; /* Center the child element horizontally */
-    align-items: center;
 }
 .main__section1__h1{
     display: block;
@@ -56,9 +58,17 @@ body{
     padding-top: 20px ;
     font-size: 25px;
 }
-.main__section1__svg{
-    border-color: black;
-    border-radius: 3px;
-    margin: 30px;
+.portfolio__section2{
+    flex-direction: row;
+    height: 750px;
+    width : 100%;
 }
-
+.main__section2__img{
+    margin:0;
+    padding-right : 50px; 
+}
+.main__section2__p{
+    margin:0;
+    padding-left : 70px; 
+    line-height: 1.5em;
+}
