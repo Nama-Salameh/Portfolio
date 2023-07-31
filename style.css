@@ -54,7 +54,7 @@ body{
     align-items: center;
 }
 .portfolio__section1{
-    height: 750px;
+    height: 770px;
     width : 100%;
     flex-direction: column;
 }
@@ -100,14 +100,26 @@ body{
     height: 400px;
     width : 100%;
 }
-.main__section2__img{
+.main__section2__img{   
     margin:0;
-    padding-right : 50px; 
-}
+    padding:0;
+    margin-right : 50px; 
+    opacity:1;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(255, 226, 246, 0.878);
+ }
+ .main__section2__img:hover{   
+    opacity: 0.7;
+    box-shadow: 0 0 12px rgba(252, 234, 246, 0.926);
+ }
+
 .main__section2__p{
+    border: 2px rgba(255, 226, 246, 0.878) solid;
     margin:0;
-    padding-left : 70px; 
+    margin-left : 100px; 
+    padding: 15px 30px;
     line-height: 1.5em;
+    position: relative;
 }
 .portfolio__section3{
     flex-direction: column;
@@ -122,7 +134,29 @@ body{
     display: inline-block;
     box-sizing: border-box;
     width: 32%;
-    padding:5px;
+    padding-top:20px;
+    line-height: 40px;
+    animation: none; 
+    scroll-margin-top: 5vh; /* Adjust this value to control when the animation triggers */
+}
+.main__section3--star{
+    position: relative;
+    animation: animate 2s   linear infinite;
+    animation-fill-mode: forwards;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+@keyframes animate{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 .portfolio__section4{
@@ -130,38 +164,83 @@ body{
     width : 100%;
     color: black;
 }
-.main__section4--project1{
+.main__section4--project{
     padding: 45px;
     flex-direction: row;
     border: 2px;
     border: 2px solid rgb(225, 234, 238);
     border-radius: 9px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     background-color: white;
+    box-shadow: 0 0 12px rgba(250, 215, 242, 0.795);
     margin-bottom: 70px;
     margin-top: 25px;
-}
-.main__section4--project1__img{
-    margin-right: 100px;
-    width:450px;
+    width: 900px;
     height: 400px;
 }
-.main__section4--project1__p{
-    margin-left: 30px;
-    width:100%;
+.main__section4--project:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 12px rgba(249, 233, 244, 0.807);
+    width: 920px;
+    height: 420px;
 }
-.github-icon{
-    margin: 20px 120px;
-    font-size:30px;
+.main__section4--imagecontainer {
+    display: flex;
+    overflow: hidden;
+    width:500px;
+    height: 400px;
+    margin-right: 20px;
+    margin-top: 25px;
+    padding: 0;
+    align-items: center;
+}
+.main__section4--project__img{
+    border-radius: 25px;
+    padding-top: 0;
+    opacity: 0;
+    position: absolute;
+    animation: fadeSlideshow 12s infinite;
+    width: 480px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.592);
+}
+  
+@keyframes fadeSlideshow {
+    0%, 33.33% {
+      opacity: 1;
+    }
+    66.66%, 100% {
+      opacity: 0;
+    }
+}
+  
+.main__section4--imagecontainer img:nth-child(2) {
+    animation-delay: 3s;
+}
+  
+.main__section4--imagecontainer img:nth-child(3) {
+    animation-delay: 6s;
+}
+.main__section4--imagecontainer img:nth-child(4) {
+    animation-delay: 9s;
+}
+
+.main__section4--project__title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.main__section4--project__p{
+    width:100%;
+    text-align: center;
 }
 .main__section4--project3__img{
-    margin-right: 150px;
-    width:250px;
-    height: 400px;
+    margin-left: 100px;
+    width:280px;
+    height: 410px;
 }
-.figma-icon{
-    margin: 20px 80px;
+.github-icon{
+    margin: 20px 140px;
     font-size:30px;
+    color: black;
 }
 .main__section5--contactcollection{
     flex-direction: row;
