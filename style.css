@@ -3,6 +3,9 @@ body{
     margin: 0;
     font-family: serif;
     font-size: large;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
 }
 .portfolio__header{
     position:fixed;
@@ -14,10 +17,10 @@ body{
     color: white;
 }
 .portfolio__header__nav__ul{
-    margin:30px 20px 50px 650px;
-    gap:55px;
+    margin:30px 20px 50px 600px;
     display: flex;
     list-style: none;
+
 }
 .portolio__header--logo{
     float: left;
@@ -28,14 +31,24 @@ body{
     text-decoration: none;
     position: relative;
     color :white;
+    padding: 0 10px;
+    margin: 0 20px;
   }
-.header__link:hover {
-    text-decoration: underline;
-    color:white;
+.header__link::after{
+    content: "";
+    position: absolute;
+    background-color: white; 
+    height: 1.5px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.header__link:hover::after {
+    width: 100%;
 }
 
 .portfolio__section{
-    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,13 +60,11 @@ body{
 }
 .main__section1__h1{
     display: block;
-    color: black; 
     font-size: 80px;
     margin: 0;
 }
 .main__section1__p{
     display: block;
-    color: black;
     margin: 0;
     padding-top: 20px ;
     font-size: 25px;
@@ -87,9 +98,11 @@ body{
     width: 32%;
     padding:5px;
 }
+
 .portfolio__section4{
     flex-direction: column;
     width : 100%;
+    color: black;
 }
 .main__section4--project1{
     padding: 45px;
@@ -113,7 +126,6 @@ body{
 }
 .github-icon{
     margin: 20px 120px;
-    color:black;
     font-size:30px;
 }
 .main__section4--project3__img{
@@ -123,7 +135,6 @@ body{
 }
 .figma-icon{
     margin: 20px 80px;
-    color:black;
     font-size:30px;
 }
 .main__section5--contactcollection{
@@ -132,10 +143,10 @@ body{
 }
 .main__section5--contactitems{
     display: inline;
-    color:black;
     margin: 10px 20px;
     font-size:30px;
     text-decoration: none;
+    color: white;
 }
 .portfolio__footer{
     flex-direction: column;
@@ -147,9 +158,3 @@ body{
     margin-bottom: 30px;
     margin-top: 30px;
 }
-footer.portfolio__footer hr {
-    border: none; /* Remove the default border */
-    height: 1px; /* Set the height of the horizontal rule */
-    background-color: #ccc; /* Set the background color of the horizontal rule */
-    margin: 20px 0; /* Add some margin to create spacing around the horizontal rule */
-  }
