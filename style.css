@@ -58,16 +58,42 @@ body{
     width : 100%;
     flex-direction: column;
 }
-.main__section1__h1{
+.main__section1__h1 , .main__section1__p , .main__section1--star1 ,.main__section1--star2{
     display: block;
     font-size: 80px;
     margin: 0;
+    color:transparent;
+    background-image: linear-gradient(to right, #fff, #d8ceced3 , #ffffffbe, #09090989 , #ffffff9f ,   #fff);
+    -webkit-background-clip: text;
+    animation: header-animation 12s linear infinite;
+    background-size: 1000%;
+}
+@keyframes header-animation{
+    0%{
+        background-position: 0% 100%;
+    }
+    50%{
+        background-position: 100% 0%;
+    }
+    100%{
+        background-position: 0% 100%;
+    }
 }
 .main__section1__p{
-    display: block;
-    margin: 0;
     padding-top: 20px ;
     font-size: 25px;
+}
+
+.main__section1--star1{
+    margin-bottom: 20px;
+    margin-left:800px;
+    font-size: 35px;
+}
+
+.main__section1--star2{
+    margin-top: 20px;
+    margin-right:800px;
+    font-size: 35px;
 }
 .portfolio__section2{
     flex-direction: row;
