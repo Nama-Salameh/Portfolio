@@ -187,54 +187,51 @@ body{
 .portfolio__section3{
     flex-direction: column;
     height: 500px;
-    width : 100%;
+    width : 600px;  
+    margin: 0 auto; /* Center the container horizontally */
+
 }
 .main__section3__ul{
     list-style-type: circle;
-    width: 100%;
+    width : 900px;  
+    padding: 0;
+    margin-left: 80px;
 }
 .main__section3__ul li{ 
     display: inline-block;
-    width: 30%;
-    padding-top:10px;
-    padding-left:10px;
+    width:230px;
     line-height: 40px;
+    justify-content: center;
     border: 1px solid black;
-    background-color: #fff;
+    background-color: #ffffffef;
+    box-shadow: 0 0 12px rgba(250, 236, 236, 0.947) inset ;
     color: black;
-    border-radius: 10px;
-    margin-top: 10px;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    margin:10px ;
+    cursor: pointer;
+}
+.main__section3__ul li:hover{
+    box-shadow: 0 0 12px rgba(17, 17, 17, 0.795) inset ;
+    width:235px;
+    line-height: 45px;
+    margin-left: 0;
+
 }
 .main__section3__ul li i {
     margin-right: 10px;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 35px;
 }
 svg{
-    color: #fff;
+    vertical-align: middle;
+    margin-right: 10px;
     width: 20px;
-    height: 20px;
+    height: 25px;
+    margin:10px ;
+    margin-left: 0;
 }
-.main__section3--star{
-    position: relative;
-    animation: animate 2s   linear infinite;
-    animation-fill-mode: forwards;
-    font-size: 20px;
-    padding-right: 10px;
-}
-
-@keyframes animate{
-    0%{
-        opacity: 0;
-    }
-    50%{
-        opacity: 0.5;
-    }
-    100%{
-        opacity: 1;
-    }
-}
-
 .portfolio__section4{
     flex-direction: column;
     width : 100%;
@@ -256,6 +253,7 @@ svg{
     margin-top: 25px;
     width: 900px;
     height: 400px;
+    cursor: pointer;
 }
 .main__section4--project:hover{
     background-color: white;
