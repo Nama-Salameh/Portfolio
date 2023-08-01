@@ -190,7 +190,8 @@ body{
 
 .portfolio__section3{
     flex-direction: column;
-    width : 600px;  
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
 }
 .main__section3__ul{
@@ -540,4 +541,25 @@ margin: 0;
         padding:0;
     }
 }
-
+@media(max-width: 320px){
+    .main__section1__h1{
+        font-size: 25px;
+    }
+    .main__section1--star1{
+        margin-left: 200px;
+    }
+    .main__section4__h{
+        font-size: 28px;
+    }
+    .main__section4--project__p{
+        font-size: 22px;
+    }
+}
+@media(max-width: 414px){
+    .main__section1__h1{
+        font-size: 28px;
+    }
+    .main__section1--star1{
+        margin-left: 210px;
+    }
+}
