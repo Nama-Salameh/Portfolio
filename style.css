@@ -543,16 +543,17 @@ margin: 0;
 }
 @media(max-width: 320px){
     .main__section1__h1{
+        margin-top: 40px;
         font-size: 25px;
     }
     .main__section1--star1{
-        margin-left: 200px;
+        margin-left: 220px;
     }
     .main__section4__h{
-        font-size: 28px;
+        font-size: 23px;
     }
     .main__section4--project__p{
-        font-size: 17px;
+        font-size: 15px;
     }
     .main__section4--project3__img{
         margin-left: 15px;
@@ -560,18 +561,16 @@ margin: 0;
         height: 410px;
         padding:0;
     }
-    .main__section3__h{
-        margin-top: 20px;
-    }
 }
 @media(max-width: 414px){
     .main__section1__h1{
-        font-size: 28px;
+        font-size: 24px;
     }
     .main__section1--star1{
-        margin-left: 170px;
+        margin-left: 150px;
     }
     .main__section3__h{
-        margin-top: 10px;
+        margin-top: 70px;
+        margin-left: 5px;
     }
 }
