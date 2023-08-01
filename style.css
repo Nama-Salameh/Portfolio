@@ -191,8 +191,7 @@ body{
 .portfolio__section3{
     flex-direction: column;
     width : 600px;  
-    margin: 0 auto; /* Center the container horizontally */
-
+    margin: 0 auto;
 }
 .main__section3__ul{
     list-style-type: circle;
@@ -280,13 +279,17 @@ svg{
     padding-top: 0;
     opacity: 0;
     position: absolute;
-    animation: fadeSlideshow 12s infinite;
     width: 100%;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.592);
     z-index: 1;
 }
-  
-@keyframes fadeSlideshow {
+.main__section4--project2__img, .main__section4--project3__img{
+    animation: imagesshow 12s infinite;
+}
+.main__section4--project1__img{
+    animation: imagesshow 15s infinite;
+}
+@keyframes imagesshow {
     0%, 33.33% {
       opacity: 1;
     }
