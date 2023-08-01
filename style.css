@@ -4,7 +4,7 @@
 }
 ::-webkit-scrollbar-thumb {
     background-color: black;
-    border-radius: 7px;
+    border-radius: 5px;
 }
 body{
     padding: 0;
@@ -325,10 +325,33 @@ padding-top: 30px;}
 .portfolio__footer{
     flex-direction: column;
     height: 650px;
+    color: white;
+    margin: 0;
+    padding-top: 40px;
 }
 .footer__logo{
     height: 280px;
     width: 280px;
     margin-bottom: 20px;
     margin-top: 30px;
+    animation: logo-animation 3s infinite;
+}
+@keyframes logo-animation{
+    50%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.main__section5__hr{
+    border: 0.5px solid rgba(255, 255, 255, 0.477); 
+    margin-top: 20px; 
+    margin-bottom: 0px;
+    width: 95%;
+}
+.main__section5__p{
+font-size: 13.5px;
+padding-top: 20px;
+margin: 0;
 }
