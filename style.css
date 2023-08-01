@@ -23,6 +23,7 @@ body{
     display: flex;
     background-color: black;
     color: white;
+    z-index: 2;
 }
 .portfolio__header__nav__ul{
     margin:30px 20px 50px 600px;
@@ -226,6 +227,10 @@ body{
     width : 100%;
     color: black;
 }
+.main__section4__h , .main__section3__h{
+    color: #fff;
+    font-size: 35px;
+}
 .main__section4--project{
     padding: 45px;
     flex-direction: row;
@@ -240,12 +245,13 @@ body{
     height: 400px;
 }
 .main__section4--project:hover{
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 12px rgba(249, 233, 244, 0.807);
-    width: 920px;
-    height: 420px;
+    background-color: white;
+    box-shadow: 0 0 60px rgba(8, 8, 8, 0.582) inset;
+    width: 915px;
+    height: 415px;
 }
 .main__section4--imagecontainer {
+    position: relative;
     display: flex;
     overflow: hidden;
     width:500px;
@@ -263,6 +269,7 @@ body{
     animation: fadeSlideshow 12s infinite;
     width: 480px;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.592);
+    z-index: 1;
 }
   
 @keyframes fadeSlideshow {
@@ -300,7 +307,7 @@ body{
     height: 410px;
 }
 .github-icon{
-    margin: 20px 140px;
+    margin: 20px 150px;
     font-size:30px;
     color: black;
 }
