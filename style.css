@@ -158,7 +158,7 @@ body{
 
 .portfolio__section2{
     flex-direction: row;
-    height: 400px;
+    height: 600px;
     width : 100%;
 }
 .main__section2__img{   
@@ -175,13 +175,14 @@ body{
  }
 
 .main__section2__p{
-    border: 2px rgba(255, 226, 246, 0.878) solid;
     margin:0;
-    margin-left : 100px; 
-    padding: 15px 30px;
+    margin-left : 120px; 
+    padding: 20px 30px;
     line-height: 1.5em;
     position: relative;
+    box-shadow: 0 0 12px rgba(252, 234, 246, 0.929) inset;
 }
+
 .portfolio__section3{
     flex-direction: column;
     height: 500px;
@@ -198,7 +199,7 @@ body{
     padding-top:20px;
     line-height: 40px;
     animation: none; 
-    scroll-margin-top: 5vh; /* Adjust this value to control when the animation triggers */
+    scroll-margin-top: 5vh; 
 }
 .main__section3--star{
     position: relative;
