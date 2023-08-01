@@ -562,6 +562,13 @@ margin: 0;
         height: 190px;
         width: 210px;
     }
+    .main__section3__ul{
+        max-width: 100%;
+        margin-left: 10px; 
+        margin-right: 10px;
+  }
+
+    }
 }
 @media(max-width: 414px){
     .main__section4--project__title{
