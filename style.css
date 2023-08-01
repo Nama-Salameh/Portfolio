@@ -66,7 +66,7 @@ body{
     width : 100%;
     flex-direction: column;
 }
-.main__section1__h1 , .main__section1__p , .main__section1--star1 ,.main__section1--star2{
+.main__section1__h1 , .main__section1__p , .main__section1--star1{
     display: block;
     font-size: 80px;
     margin: 0;
@@ -314,7 +314,7 @@ body{
 .main__section5--contactcollection{
     flex-direction: row;
     width : 100%;
-}
+padding-top: 30px;}
 .main__section5--contactitems{
     display: inline;
     margin: 10px 20px;
@@ -324,11 +324,11 @@ body{
 }
 .portfolio__footer{
     flex-direction: column;
+    height: 650px;
 }
 .footer__logo{
-    border-radius: 120px;
     height: 280px;
     width: 280px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 30px;
 }
