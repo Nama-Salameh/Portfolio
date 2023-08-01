@@ -61,6 +61,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    right: 30px;
+    left: 30px;
 }
 .portfolio__section1{
     height: 770px;
@@ -372,9 +374,9 @@ margin: 0;
 .menu{
     display:none;
     position: absolute;
-    top: 25px;
-    right:10px;   
-    font-size: 35px;
+    top: 17px;
+    right:20px;   
+    font-size: 38px;
     cursor: pointer;
 }
 .checkbox-for-menu{
@@ -383,7 +385,19 @@ margin: 0;
     pointer-events: none;
 }
 
-@media(max-width : 990px){
+@media(max-width : 1100px){
+    .main__section4--project{
+        margin-right:90px;
+        margin-left: 90px;
+        width: 750px;
+        height: 390;
+    }
+    .main__section4--project:hover{
+        width: 760px;
+        height: 395;
+    }
+}
+@media(max-width : 992px){
     .menu{
         display: flex;
     }
@@ -407,9 +421,14 @@ margin: 0;
         opacity: 1;
         visibility: visible;
     }
+    .main__section1--star1{
+        margin-left:750px;
+    }
     .main__section2__p{
         margin:0;
-        margin-left : 50px; }
+        margin-left : 20px; 
+        margin-left: 20px;
+    }
     .main__section4--project{
         margin-right:80px;
         margin-left: 80px;
@@ -419,5 +438,45 @@ margin: 0;
     .main__section4--project:hover{
         width: 710px;
         height: 375;
+    }
+}
+
+/* for tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    .main__section1--star1{
+        margin-left: 650px;
+    }
+    .main__section3__ul{
+        margin-left: 100px;
+        width: 600px;
+    }
+     .main__section2__img{
+        margin-left:20px;
+        margin-right: 10px;
+    }
+    .main__section2__p{
+        margin-left : 10px; 
+        padding: 15px 9px;
+        line-height: 20px;
+    }
+    .main__section4--project{
+        margin-right:90px;
+        margin-left: 90px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-left: 30px;
+        width: 630px;
+        height: 360px;
+    }
+    .main__section4--project:hover{
+        width: 635px;
+        height: 365px;
+    }
+}
+
+/* for smart phones*/
+@media (max-width: 767px) {
+    .main__section2__p {
+        background-color: aqua;
     }
 }
