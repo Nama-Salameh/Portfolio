@@ -26,10 +26,11 @@ body{
     z-index: 2;
 }
 .portfolio__header__nav__ul{
-    margin:30px 20px 50px 600px;
+    right: 20px;   
     display: flex;
     list-style: none;
-
+    position: absolute;
+    justify-content: space-around;
 }
 .portolio__header--logo{
     float: left;
@@ -177,7 +178,7 @@ body{
 
 .main__section2__p{
     margin:0;
-    margin-left : 120px; 
+    margin-left : 100px; 
     padding: 20px 30px;
     line-height: 1.5em;
     position: relative;
@@ -278,7 +279,7 @@ svg{
     opacity: 0;
     position: absolute;
     animation: fadeSlideshow 12s infinite;
-    width: 480px;
+    width: 100%;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.592);
     z-index: 1;
 }
@@ -313,7 +314,7 @@ svg{
     text-align: center;
 }
 .main__section4--project3__img{
-    margin-left: 100px;
+    margin-left: 50px;
     width:280px;
     height: 410px;
 }
@@ -365,4 +366,58 @@ padding-top: 30px;}
 font-size: 13.5px;
 padding-top: 20px;
 margin: 0;
+}
+
+
+.menu{
+    display:none;
+    position: absolute;
+    top: 25px;
+    right:10px;   
+    font-size: 35px;
+    cursor: pointer;
+}
+.checkbox-for-menu{
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+@media(max-width : 990px){
+    .menu{
+        display: flex;
+    }
+    .portfolio__header__nav{
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        background-color: black;
+        line-height: 50px;
+        font-size: 30px;
+        border-top: 1px solid white;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .portfolio__header__nav__ul{
+        display: block;
+        margin: 0;
+    }
+    .checkbox-for-menu:checked ~ .portfolio__header__nav{
+        opacity: 1;
+        visibility: visible;
+    }
+    .main__section2__p{
+        margin:0;
+        margin-left : 50px; }
+    .main__section4--project{
+        margin-right:80px;
+        margin-left: 80px;
+        width: 700px;
+        height: 370;
+    }
+    .main__section4--project:hover{
+        width: 710px;
+        height: 375;
+    }
 }
