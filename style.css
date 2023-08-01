@@ -387,31 +387,7 @@ margin: 0;
     opacity: 0;
     pointer-events: none;
 }
-
-@media(max-width :1400px){
-    .menu{
-        display: flex;
-    }
-    .portfolio__header__nav{
-        position: absolute;
-        left: 0;
-        top: 100%;
-        width: 100%;
-        background-color: black;
-        line-height: 50px;
-        font-size: 30px;
-        border-top: 1px solid white;
-        opacity: 0;
-        visibility: hidden;
-    }
-    .portfolio__header__nav__ul{
-        display: block;
-        margin: 0;
-    }
-    .checkbox-for-menu:checked ~ .portfolio__header__nav{
-        opacity: 1;
-        visibility: visible;
-    }
+@media(max-width: 1400px){
     .main__section1--star1{
         margin-left:750px;
     }
@@ -433,6 +409,35 @@ margin: 0;
     .main__section4--project:hover{
         width: 760px;
         height: 395;
+    }
+}
+@media(max-width :992px){
+    .menu{
+        display: flex;
+    }
+    .portfolio__header__nav{
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        background-color: black;
+        line-height: 50px;
+        font-size: 30px;
+        border-top: 1px solid white;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .portfolio__header__nav__ul{
+        display: block;
+        margin: 0;
+        background-color: black;
+        width:100%;
+        padding-bottom: 3px;
+        border-bottom:1px solid #fff;
+    }
+    .checkbox-for-menu:checked ~ .portfolio__header__nav{
+        opacity: 1;
+        visibility: visible;
     }
 }
 
