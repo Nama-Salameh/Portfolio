@@ -329,6 +329,7 @@ svg{
     padding-left: 40px;
     text-align: justify;
     text-justify: inter-word;
+    word-spacing: -2px;
 }
 .main__section4--project3__img{
     margin-left: 50px;
@@ -336,7 +337,7 @@ svg{
     height: 410px;
 }
 .github-icon{
-    margin: 20px 130px;
+    margin: 20px 120px;
     padding-left: 40px;
     font-size:30px;
     color: black;
