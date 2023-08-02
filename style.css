@@ -76,7 +76,7 @@ body{
     color:transparent;
     background-image: linear-gradient(to right, #fff, #d8ceced3 , #ffffffbe, #09090989 , #ffffff9f ,   #fff);
     -webkit-background-clip: text;
-    animation: header-animation 12s linear infinite;
+    animation: header-animation 7s linear infinite;
     background-size: 1000%;
 }
 @keyframes header-animation{
