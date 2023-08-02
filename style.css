@@ -65,7 +65,7 @@ body{
     left: 30px;
 }
 .portfolio__section1{
-    height: 1000px;
+    height: 850px;
     width : 100%;
     flex-direction: column;
 }
@@ -164,6 +164,7 @@ body{
     flex-direction: row;
     height: 600px;
     width : 100%;
+    padding-top: 70px;
 }
 .main__section2__img{   
     margin:0;
@@ -196,6 +197,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    padding-top: 70px;
 }
 .main__section3__ul{
     list-style-type: circle;
@@ -245,6 +247,7 @@ svg{
     flex-direction: column;
     width : 100%;
     color: black;
+    padding-top: 70px;
 }
 .main__section4__h , .main__section3__h{
     color: #fff;
