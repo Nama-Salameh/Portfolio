@@ -351,6 +351,9 @@ padding-top: 30px;}
     text-decoration: none;
     color: white;
 }
+.main__section5--contactitems:hover{
+    transform: scale(1.2);
+}
 .portfolio__footer{
     flex-direction: column;
     height: 650px;
