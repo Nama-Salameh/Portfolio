@@ -225,7 +225,7 @@ body{
 }
 .main__section3__ul li:hover{
     box-shadow: 0 0 12px rgba(17, 17, 17, 0.795) inset ;
-    width:235px;
+    transform: scale(1.04);
     line-height: 45px;
     margin-left: 0;
 
@@ -268,9 +268,8 @@ svg{
 }
 .main__section4--project:hover{
     background-color: white;
-    box-shadow: 0 0 60px rgba(8, 8, 8, 0.582) inset;
-    width: 915px;
-    height: 415px;
+    box-shadow: 0 0 50px rgba(8, 8, 8, 0.851) inset;
+    transform: scale(1.05);
 }
 .main__section4--imagecontainer {
     position: relative;
@@ -427,10 +426,6 @@ margin: 0;
         width: 750px;
         height: 390;
     }
-    .main__section4--project:hover{
-        width: 760px;
-        height: 395;
-    }
 }
 @media(max-width :992px){
     .menu{
@@ -483,8 +478,7 @@ margin: 0;
         height: 360px;
     }
     .main__section4--project:hover{
-        width: 635px;
-        height: 365px;
+        transform: scale(1.04);
     }
 }
 @media (max-width: 767px) {
@@ -530,8 +524,7 @@ margin: 0;
     }
     .main__section4--project:hover{
         flex-direction: column;
-        height: 700px;
-        width: 70%
+        transform: scale(1.03);
     }
     .main__section4--imagecontainer{
         width: 90%;
