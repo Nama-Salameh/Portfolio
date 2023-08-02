@@ -201,7 +201,7 @@ body{
 }
 .animations-star{
     position: absolute;
-    color: white;
+    color: rgba(255, 255, 255, 0.311);
     animation: HorizontallyStar 4s infinite linear alternate;
     top: 25%;
     left: 50%;
@@ -222,6 +222,36 @@ body{
     margin: 0 auto;
     padding-top: 70px;
 }
+.skills-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+.vertically-animations-star1{
+    left:10%;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.311);
+    animation: VerticallyStar 6s infinite linear alternate;
+    transform: translate(-20%, -20%);
+}
+.vertically-animations-star2{
+    left: 89%;
+    position: absolute;
+    color:rgba(255, 255, 255, 0.311);
+    animation: VerticallyStar 6s infinite linear alternate;
+    transform: translate(-20%, -20%);
+}
+@keyframes VerticallyStar {
+    from {
+        top: 10%;
+    }
+    to {
+        top: 80%;
+    }
+}
 .main__section3__ul{
     list-style-type: circle;
     padding: 0;
@@ -230,6 +260,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin:0;
     margin-top: 20px;
 }
 
