@@ -340,6 +340,9 @@ svg{
     font-size:30px;
     color: black;
 }
+.github-icon:hover{
+    transform: scale(1.2);
+}
 .main__section5--contactcollection{
     flex-direction: row;
     width : 100%;
