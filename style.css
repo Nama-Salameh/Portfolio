@@ -186,6 +186,9 @@ body{
     line-height: 1.5em;
     position: relative;
     box-shadow: 0 0 12px rgba(252, 234, 246, 0.929) inset;
+    text-align: justify;
+    text-justify: inter-word;
+
 }
 
 .portfolio__section3{
@@ -313,15 +316,19 @@ svg{
 .main__section4--imagecontainer img:nth-child(4) {
     animation-delay: 9s;
 }
-
+.main__section4--AboutProjects{
+    width:40%
+}
 .main__section4--project__title{
     text-align: center;
     font-size: 30px;
 }
 
 .main__section4--project__p{
-    width:100%;
-    text-align: center;
+    width:78%;
+    padding-left: 40px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .main__section4--project3__img{
     margin-left: 50px;
@@ -329,7 +336,8 @@ svg{
     height: 410px;
 }
 .github-icon{
-    margin: 20px 150px;
+    margin: 20px 130px;
+    padding-left: 40px;
     font-size:30px;
     color: black;
 }
