@@ -218,7 +218,6 @@ body{
     border-radius: 15px;
     padding:5px 15px;
     margin:10px ;
-    cursor: pointer;
     box-sizing: content-box;
     flex-basis: calc(33% - 20px);
 }
@@ -263,7 +262,6 @@ svg{
     margin-top: 25px;
     width: 900px;
     height: 400px;
-    cursor: pointer;
 }
 .main__section4--project:hover{
     background-color: white;
