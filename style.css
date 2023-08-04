@@ -221,6 +221,7 @@ body{
     align-items: center;
     margin: 0 auto;
     padding-top: 70px;
+    width: 100%;
 }
 .skills-container{
     position: relative;
@@ -306,6 +307,7 @@ svg{
 .main__section4__h , .main__section3__h{
     color: #fff;
     font-size: 35px;
+    text-align: center;
 }
 .main__section4--project{
     padding: 45px;
@@ -391,10 +393,12 @@ svg{
     height: 410px;
 }
 .github-icon{
-    margin: 20px 120px;
-    padding-left: 40px;
+    text-align: center;
+    width: 100%;
     font-size:30px;
     color: black;
+    padding-top: 7%;
+    padding-bottom: 5%;
 }
 .github-icon:hover{
     transform: scale(1.2);
@@ -529,10 +533,13 @@ margin: 0;
         padding-bottom: 45px;
         padding-left: 30px;
         width: 630px;
-        height: 360px;
+        height: fit-content;
     }
     .main__section4--project:hover{
         transform: scale(1.04);
+    }
+    .main__section4--AboutProjects{
+        width:65%
     }
 }
 @media (max-width: 767px) {
@@ -565,10 +572,11 @@ margin: 0;
     }
     .main__section3__ul li {
         flex-basis: calc(50% - 20px);
+        margin-right: 4px;
       }
     .main__section4--project{
         flex-direction: column;
-        height: 690px;
+        height: fit-content;
         width:68%;
         position: relative;
         padding: 10px 10px;
@@ -584,15 +592,19 @@ margin: 0;
         width: 90%;
         margin: 10px 10px;
     }
+    .main__section4--AboutProjects{
+        width:100%
+    }
     .main__section4--project__p{
         margin: 0;
-    }
+        width: 80%;
+       }
     .main__section4--project__img{
         margin: 0;
     }
     .main__section4--project3__img{
-        margin-left: 15px;
-        width:280px;
+        margin-left: 5px;
+        width:95%;
         height: 410px;
         padding:0;
     }
@@ -612,8 +624,6 @@ margin: 0;
         font-size: 13px;
     }
     .main__section4--project3__img{
-        margin-left: 15px;
-        width:200px;
         height: 410px;
         padding:0;
     }
@@ -637,7 +647,6 @@ margin: 0;
     .main__section1--star1{
         margin-left: 150px;
     }
-
     .footer__logo{
         height: 220px;
         width: 220px;
