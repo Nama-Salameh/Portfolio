@@ -14,7 +14,7 @@ body {
   min-height: 100vh;
   background-color: black;
   color: white;
-  width:100%;
+  width: 100%;
   overflow-x: hidden;
 }
 .portfolio__header {
@@ -23,6 +23,7 @@ body {
   width: 100%;
   height: 10%;
   display: flex;
+  align-items: center;
   background-color: black;
   color: white;
   z-index: 2;
@@ -182,10 +183,18 @@ body {
   width: 100%;
   padding-top: 70px;
 }
+.main__section2--imagecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 .main__section2__img {
   margin: 0;
-  padding:0;
-  margin-right: 50px;
+  padding: 0;
+  width: 100%;
   opacity: 1;
   border-radius: 10px;
   box-shadow: 0 0 12px rgba(255, 226, 246, 0.878);
@@ -473,8 +482,8 @@ svg {
 .menu {
   display: none;
   position: absolute;
-  top: 17px;
-  right: 20px;
+  top: 20%;
+  right: 5%;
   font-size: 38px;
   height: 100%;
   cursor: pointer;
@@ -501,11 +510,10 @@ svg {
   }
   .vertically-animations-star1 {
     left: 15%;
-}
-    .vertically-animations-star2 {
-        left: 85%;
-    }
-
+  }
+  .vertically-animations-star2 {
+    left: 85%;
+  }
 }
 @media (max-width: 992px) {
   .menu {
@@ -547,10 +555,10 @@ svg {
   }
   .vertically-animations-star1 {
     left: 10%;
-}
-    .vertically-animations-star2 {
+  }
+  .vertically-animations-star2 {
     left: 90%;
-}
+  }
   .main__section4--project {
     margin-right: 90px;
     margin-left: 90px;
@@ -580,9 +588,6 @@ svg {
   }
   .portfolio__section2 {
     flex-direction: column;
-  }
-  .main__section2__img {
-    margin: 10px 20px;
   }
   .main__section2__p {
     margin: 15px 10px;
@@ -648,7 +653,7 @@ svg {
     margin-left: 230px;
   }
   .main__section2__img {
-    width: 80%;
+    width: 100%;
   }
   .main__section4--project3__img {
     height: 410px;
@@ -664,9 +669,9 @@ svg {
   }
 }
 @media (max-width: 414px) {
-    .main__section4--project{
-        width: 70%;
-    }
+  .main__section4--project {
+    width: 70%;
+  }
   .main__section4--project__title {
     font-size: 22px;
   }
@@ -678,11 +683,16 @@ svg {
     margin-left: 160px;
   }
   .footer__logo {
-    height: 220px;
-    width: 220px;
+    height: 200px;
+    width: 200px;
+  }
+  .main__section5--contactitems{
+    margin: 13px;
+  }
+  .portolio__header--logo {
+    width: 70px;
   }
   .menu {
-    top: 10px;
     font-size: 28px;
   }
 }
