@@ -463,6 +463,7 @@ margin: 0;
     top: 17px;
     right:20px;   
     font-size: 38px;
+    height: 100%;
     cursor: pointer;
 }
 .checkbox-for-menu{
@@ -650,5 +651,9 @@ margin: 0;
     .footer__logo{
         height: 220px;
         width: 220px;
+    }
+    .menu{
+        top: 10px;
+        font-size: 28px;
     }
 }
