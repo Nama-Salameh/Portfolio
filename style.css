@@ -14,6 +14,8 @@ body {
   min-height: 100vh;
   background-color: black;
   color: white;
+  width:100%;
+  overflow-x: hidden;
 }
 .portfolio__header {
   position: fixed;
@@ -182,7 +184,7 @@ body {
 }
 .main__section2__img {
   margin: 0;
-  padding: 0;
+  width: 90%;
   margin-right: 50px;
   opacity: 1;
   border-radius: 10px;
@@ -197,7 +199,7 @@ body {
   width: 30%;
   margin: 0;
   margin-left: 100px;
-  padding: 20px 30px;
+  padding: 10px 30px;
   line-height: 1.5em;
   position: relative;
   box-shadow: 0 0 12px rgba(252, 234, 246, 0.929) inset;
@@ -305,7 +307,6 @@ body {
 }
 svg {
   vertical-align: middle;
-  margin-right: 10px;
   width: 20px;
   height: 25px;
   margin: 10px;
@@ -495,13 +496,19 @@ svg {
     margin-left: 50px;
     width: 33%;
   }
-
   .main__section4--project {
     margin-right: 90px;
     margin-left: 90px;
     width: 750px;
     height: 390;
   }
+  .vertically-animations-star1 {
+    left: 15%;
+}
+    .vertically-animations-star2 {
+        left: 85%;
+    }
+
 }
 @media (max-width: 992px) {
   .menu {
@@ -545,6 +552,12 @@ svg {
     padding: 15px 9px;
     line-height: 20px;
   }
+  .vertically-animations-star1 {
+    left: 10%;
+}
+    .vertically-animations-star2 {
+    left: 90%;
+}
   .main__section4--project {
     margin-right: 90px;
     margin-left: 90px;
