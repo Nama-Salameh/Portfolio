@@ -608,10 +608,11 @@ svg {
   }
   .main__section4--imagecontainer {
     width: 90%;
+    height: 380px;
     margin: 10px 10px;
   }
   .main__section4--project__img {
-    height: 80%;
+    height: 90%;
   }
   .main__section4--AboutProjects {
     width: 100%;
@@ -636,13 +637,12 @@ svg {
     font-size: 25px;
   }
   .main__section1--star1 {
-    margin-left: 220px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 230px;
   }
   .main__section2__img {
     margin: 10px 40px;
-  }
-  .main__section4--project__title {
-    font-size: 20px;
   }
   .main__section4--project3__img {
     height: 410px;
@@ -659,14 +659,14 @@ svg {
 }
 @media (max-width: 414px) {
   .main__section4--project__title {
-    font-size: 24px;
+    font-size: 22px;
   }
   .main__section4--project__p {
     font-size: 13px;
     padding-left: 10px;
   }
   .main__section1--star1 {
-    margin-left: 150px;
+    margin-left: 160px;
   }
   .footer__logo {
     height: 220px;
